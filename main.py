@@ -35,6 +35,7 @@ while True:
             except Exception as err:
                 tb.send_message(1757275340, f'error {err}')
                 print(err)
+                continue
     except Exception as err:
         tb.send_message(1757275340, f'critical error {err}')
 
